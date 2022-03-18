@@ -1,8 +1,9 @@
 module github.com/planetscale/cli
 
-go 1.18
+go 1.19
 
 require (
+	github.com/99designs/keyring v1.2.1
 	github.com/AlecAivazis/survey/v2 v2.3.6
 	github.com/benbjohnson/clock v1.3.0
 	github.com/briandowns/spinner v1.19.0
@@ -27,17 +28,22 @@ require (
 	github.com/stretchr/testify v1.8.0
 	github.com/xelabs/go-mysqlstack v1.0.0
 	go.uber.org/zap v1.23.0
-	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab
+	golang.org/x/sys v0.1.0
 	golang.org/x/text v0.4.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 
 require (
+	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
+	github.com/danieljoos/wincred v1.1.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
+	github.com/dvsekhvalnov/jose2go v1.5.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
+	github.com/godbus/dbus v0.0.0-20190726142602-4481cbc300e2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
+	github.com/gsterjov/go-libsecret v0.0.0-20161001094733-a6f4afe4910c // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/kataras/tablewriter v0.0.0-20180708051242-e063d29b7c23 // indirect
@@ -49,6 +55,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
+	github.com/mtibben/percent v0.2.1 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.5 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
@@ -63,7 +70,7 @@ require (
 	go.uber.org/multierr v1.8.0 // indirect
 	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2 // indirect
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5 // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
+	golang.org/x/term v0.0.0-20221017184919-83659145692c // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
